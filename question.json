@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the full form of CSS?",
+      "options": [
+        { "id": 1, "text": "Cascading Style Sheet", "isCorrect": true },
+        { "id": 2, "text": "Color Scheme Sheet", "isCorrect": false },
+        { "id": 3, "text": "Create Serial System", "isCorrect": false },
+        { "id": 4, "text": "Control Supply System", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "What does HTML stand for?",
+      "options": [
+        { "id": 1, "text": "Hyper Text Markup Language", "isCorrect": true },
+        {
+          "id": 2,
+          "text": "Hyperlink and Text Markup Language",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Highly Typed Multi-purpose Language",
+          "isCorrect": false
+        },
+        { "id": 4, "text": "Home Tool Markup Language", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "What programming language is often used for web development?",
+      "options": [
+        { "id": 1, "text": "Java", "isCorrect": false },
+        { "id": 2, "text": "Python", "isCorrect": false },
+        { "id": 3, "text": "JavaScript", "isCorrect": true },
+        { "id": 4, "text": "C++", "isCorrect": false }
+      ]
+    }
+  ]
+}
