@@ -1,0 +1,13 @@
+      for (currentOptionIndex = 0; currentOptionIndex < data.questions[currentQuestionIndex].options.length; currentOptionIndex++) {
+         
+      }
+
+
+      function checkCorrectness() {
+  const data = fetchData();
+  const correctAnswer = data.questions[currentQuestionIndex].options.isCorrect;
+  if(checkbox.checked){
+
+  const checkedValue = checkbox.value; 
+}
+}

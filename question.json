@@ -37,6 +37,100 @@
         { "id": 3, "text": "JavaScript", "isCorrect": true },
         { "id": 4, "text": "C++", "isCorrect": false }
       ]
+    },
+    {
+      "id": 4,
+      "text": "Which company developed the JavaScript programming language?",
+      "options": [
+        { "id": 1, "text": "Microsoft", "isCorrect": false },
+        { "id": 2, "text": "Google", "isCorrect": false },
+        { "id": 3, "text": "Netscape", "isCorrect": true },
+        { "id": 4, "text": "Apple", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What does API stand for?",
+      "options": [
+        {
+          "id": 1,
+          "text": "Advanced Programming Interface",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Application Programming Interface",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Automated Processing Interface",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Application Process Integration",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "In web development, what does the acronym DOM stand for?",
+      "options": [
+        { "id": 1, "text": "Document Object Model", "isCorrect": true },
+        { "id": 2, "text": "Data Object Model", "isCorrect": false },
+        { "id": 3, "text": "Digital Output Module", "isCorrect": false },
+        { "id": 4, "text": "Dynamic Object Manipulation", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Which of the following is a version control system used in software development?",
+      "options": [
+        { "id": 1, "text": "Git", "isCorrect": true },
+        { "id": 2, "text": "Apache", "isCorrect": false },
+        { "id": 3, "text": "MongoDB", "isCorrect": false },
+        { "id": 4, "text": "Node.js", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "What is the purpose of the HTML 'meta' tag?",
+      "options": [
+        { "id": 1, "text": "Define a paragraph", "isCorrect": false },
+        {
+          "id": 2,
+          "text": "Provide metadata about the document",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Create a hyperlink", "isCorrect": false },
+        { "id": 4, "text": "Insert an image", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Which CSS property is used for controlling the layout flow of a document?",
+      "options": [
+        { "id": 1, "text": "color", "isCorrect": false },
+        { "id": 2, "text": "font-size", "isCorrect": false },
+        { "id": 3, "text": "display", "isCorrect": true },
+        { "id": 4, "text": "margin", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "What is the purpose of the JavaScript 'setTimeout' function?",
+      "options": [
+        { "id": 1, "text": "Create a loop", "isCorrect": false },
+        {
+          "id": 2,
+          "text": "Delay the execution of a function",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Handle form submissions", "isCorrect": false },
+        { "id": 4, "text": "Define a variable", "isCorrect": false }
+      ]
     }
   ]
 }
