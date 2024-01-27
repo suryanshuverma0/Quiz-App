@@ -1,16 +1,10 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
- 
 }
-.container::before{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+
 .container {
   max-width: 800px;
   margin: 20px auto;
@@ -18,7 +12,11 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 8px;
-  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+  
 }
 
 .quiz-app {
@@ -30,7 +28,7 @@ body {
   grid-template-columns: 1fr;
   gap: 20px;
 }
-p{
+p {
   font-size: 23px;
 }
 
@@ -48,35 +46,20 @@ p{
   background-color: rgb(240, 234, 234);
 }
 
-
-
-#submit{
+#submit  , #next , #previous , #start{
   background-color: #2ecc71;
   color: #fff;
   padding: 10px 20px;
   font-size: 25px;
   border: none;
-  border-radius:10px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
   text-align: center;
   margin-top: 30px;
 }
 
-#submit:hover{
+#submit:hover  , #next:hover , #previous:hover , #start:hover{
   background-color: #27ae60;
 }
-#start{
-  background-color: #2ecc71;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 25px;
-  border: none;
-  border-radius:10px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  text-align: center;
-}
-#start:hover{
-  background-color: #27ae60;
-}
+
