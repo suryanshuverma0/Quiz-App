@@ -4,14 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Qufiz App</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" id="toggleMode" href="light.css"/>
+    <!-- <link rel="stylesheet" href="dark.css"/> -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-...your-sha-hash-here..."
+    crossorigin="anonymous"
+  />
   </head>
   <body>
     <header>
       <div id="header">
-        <span id="time"></span>
-        <span id="text"></span>
+        <span id="time">00: 00: 00</span>
+        <span id="text">10/10 questions remaining</span>
+        <p id="scorePara">Score: <span id="score">0</span></p>
+        <button id="switch" type="button" aria-label="toggleMode">
+          <i class="fas fa-moon"></i>
+        </button>
       </div>
     </header>
     <div class="container">
